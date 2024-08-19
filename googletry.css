@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.gglnav{
+    width: 100%;
+    background-color: #fc1c1c;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+ul{
+    padding: 10px;
+    list-style-type: none;
+    margin: -30px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.sech-bar{
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.sech-bar:hover{
+    border: white;
+}
+li a{
+    display: flex;
+    padding: 1px 0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(0, 128, 187);
+}
+
+li a:hover:not(.active){
+    background-color: rgb(4, 0, 255);
+}
+li a:hover:active{
+    background-color: rgb(0, 0, 0);
+}
+input{
+    padding: 10px;
+}
+
+.google{
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+.h{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f72222;
+    padding: 10px;
+    margin: 0 auto;
+    width: 400px;
+}
+ul{
+    text-align: center;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.google{
+    padding: 10px;
+}
+.sign-in{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.ggg{
+    margin-bottom: 25px;
+    margin-top: -15px ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    margin-top: 10px
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 29px;
+    font-size: 16px;
+    margin-left: 50%;
+    margin-bottom: ;
+}
+a{
+    text-decoration: none;
+}
+
+.gh{
+    color: rgb(0, 0, 0);
+    display: flex;
+   flex-wrap:wrap;
+   text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 15px;
+    padding: 9px;
+
+}
+.ttt{
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.select{
+    margin-top: 19px;
+    text-decoration: none;
+    border: none;
+    
+}
